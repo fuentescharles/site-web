@@ -1,0 +1,49 @@
+.ul2{
+
+list-style-type: none;
+}
+
+.ul1{
+
+list-style-type: none;
+border-top: solid;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    border-bottom: solid;
+    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
+
+}
+
+.block1{
+    width:50%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+
+
+}
+
+.li1{
+
+     border-bottom: 1px solid #4d4d4d;
+     /* styling all grid-wrapper as inline blocks */
+     vertical-align: top;
+     /* aligning those boxes at the top */
+     *display: inline;
+     /* IE hack to mimic inline-block */
+     zoom: 1;
+     /* part of the above hack for IE */
+     width: 100%;
+     position: relative;
+     display: inline-block;
+     padding-top: 7px;
+     padding-top: 0.4375rem;
+     padding-bottom: 7px;
+     padding-bottom: 0.4375rem;
+
+}
